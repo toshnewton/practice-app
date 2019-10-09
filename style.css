@@ -4,6 +4,7 @@
 
 input {
     flex: 1;
+    color:blue;
 }
 
 label {
@@ -12,8 +13,9 @@ label {
 
 #button, h1 {
     text-align: center;
+    width: auto;
 }
-
 .centered {
     margin: 5px auto 5px auto;
+    color:blue;
 }
