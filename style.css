@@ -4,7 +4,6 @@
 
 input {
     flex: 1;
-    color:blue;
 }
 
 label {
@@ -17,5 +16,5 @@ label {
 }
 .centered {
     margin: 5px auto 5px auto;
-    color:blue;
+
 }
