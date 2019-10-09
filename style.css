@@ -1,0 +1,19 @@
+.flex-area {
+    display: flex;
+}
+
+input {
+    flex: 1;
+}
+
+label {
+    margin-right: 1em;
+}
+
+#button-div, h1 {
+    text-align: center;
+}
+
+.centered {
+    margin: 5px auto 5px auto;
+}

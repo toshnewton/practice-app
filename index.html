@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Restaurant Calc</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+        <h1 class="centered">Maitre D</h1>
+        <table class="centered">
+            <tr>
+                <td colspan="2">
+                    <span class="flex-area">
+                        <label for="total-field">Total:</label>
+                        <input id="total-field" type="text" name="total-field">
+                    </span>
+                </td>
+            </tr>
+            <tr class="blank-row">
+            </tr>
+                <td colspan="2"></td>
+            <tr>
+                <td><label>Tip: <span id="tip-amount">$0.0</span></label></td>
+                <td>
+                    <span class="flex-area">
+                        <label for="rate-field">Rate:</label>
+                        <input id="rate-field" type="text" name="rate-field" value="20.0">
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Tax: <span id="tax-amount">$0.0</span></label></td>
+                
+            </tr>
+            <tr>
+                <td><label>Grand Total: <span id="grand-total">$0.0</span></label></td>
+            </tr>
+        </table>
+        
+        <div id="button-div">
+            <button id="btn-calculate">Calculate</button>
+        </div>
+    <script src="total.js"></script>
+</body>
+</html>
